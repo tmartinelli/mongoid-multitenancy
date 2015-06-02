@@ -15,5 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Mongoid::Multitenancy::VERSION
 
+  gem.add_runtime_dependency('request_store', '>= 1.0.5')
   gem.add_dependency('mongoid', '>= 3.0')
 end
