@@ -2,6 +2,7 @@ require "mongoid"
 require "mongoid/multitenancy/document"
 require "mongoid/multitenancy/version"
 require "mongoid/validators/tenant_validator"
+require "request_store"
 
 module Mongoid
   module Multitenancy
